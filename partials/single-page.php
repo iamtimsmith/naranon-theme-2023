@@ -10,6 +10,9 @@ if ( have_posts() ) :
 		the_post(); ?>
 		<section class="page">
 			<div class="page__container">
+				<h1>
+					<?php echo $title; ?>
+				</h1>
 				<div class="page__content">
 					<?php the_content() ?>
 				</div>

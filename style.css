@@ -11,6 +11,7 @@ GitHub Theme URI: understrap/understrap-child
 
 @import "./styles/base/reset.css";
 @import "./styles/base/global.css";
+@import "./styles/base/wordpress.css";
 
 @import "./styles/components/button.css";
 

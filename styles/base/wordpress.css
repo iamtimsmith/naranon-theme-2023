@@ -165,6 +165,10 @@ a img.aligncenter {
 	align-items: center;
 }
 
+#wpadminbar {
+	position: fixed !important;
+}
+
 #wp-admin-bar-aioseo-main > .ab-item {
 	display: flex !important;
 	gap: 0.5rem !important;

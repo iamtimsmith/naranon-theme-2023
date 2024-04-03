@@ -36,4 +36,3 @@ $pageTitle = get_the_title( $post->ID );
 		<figure>
 			<img src="https://naranonfl.org/images/header-people2.png" alt="Florida Region Nar-Anon banner">
 		</figure>
-		<main>

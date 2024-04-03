@@ -11,6 +11,16 @@
 	--grey-700: #404040;
 	--grey-800: #262626;
 	--grey-900: #0d0d0d;
+	--blue-50: #dcf9ff;
+	--blue-100: #aee4ff;
+	--blue-200: #7ccdff;
+	--blue-300: #4ab2ff;
+	--blue-400: #1a95ff;
+	--blue-500: #0073e6;
+	--blue-600: #0066b4;
+	--blue-700: #005182;
+	--blue-800: #003651;
+	--blue-900: #001721;
 
 	/* Typography */
 	--font-body: Calibri, Arial, Verdana, Helvetica, sans-serif;
