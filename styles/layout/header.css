@@ -33,7 +33,7 @@
 	transition: color var(--fast);
 }
 
-.site-header__menu .menu-item:hover > a {
+.site-header__menu a:hover {
 	color: var(--grey-200);
 }
 
@@ -48,14 +48,14 @@
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.site-header__menu .menu-item-has-children:after {
+.site-header__menu .menu-item-has-children > a:after {
 	content: "\276F";
 	display: inline-block;
-	margin-left: 0.25rem;
+	margin-left: 0.5rem;
 	transition: color var(--fast);
 }
 
-.site-header__menu .menu-item-has-children:hover:after {
+.site-header__menu .menu-item-has-children > a:hover:after {
 	color: var(--grey-200);
 }
 
@@ -72,7 +72,7 @@
 	position: relative;
 }
 
-.site-header__menu > .menu-item-has-children:after {
+.site-header__menu > .menu-item-has-children > a:after {
 	transform: rotate(90deg);
 }
 

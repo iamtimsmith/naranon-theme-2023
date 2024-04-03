@@ -146,6 +146,21 @@ a img.aligncenter {
 }
 
 /* Custom Blocks */
+.wp-block-embed {
+	margin: 1rem auto;
+}
+
+.wp-block-embed.aligncenter {
+	text-align: center;
+}
+
+.wp-block-embed.alignright {
+	text-align: right;
+	padding: 1rem;
+	margin: 0;
+	background: var(--grey-50);
+}
+
 .wp-block-acf-content,
 .wp-block-acf-hero {
 	max-width: none;
