@@ -1,39 +1,57 @@
 .offcanvas {
 	position: fixed;
 	inset: 0;
-	background: var(--dark-background);
+	background: var(--grey-900);
 	z-index: 3;
 	visibility: hidden;
 	opacity: 0;
 	transition: all 0.3s;
 }
+
 .offcanvas.active {
 	visibility: visible;
 	opacity: 1;
 }
+
 .offcanvas__container {
+	position: relative;
+	max-width: var(--container-width);
+	padding: var(--container-padding);
+	margin: 0 auto;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	overflow-y: auto;
 }
-.offcanvas__menu {
+
+.offcanvas__menu,
+.offcanvas__menu .sub-menu {
 	margin: 0;
 	list-style: none;
-}
-.offcanvas__menu a {
-	font-family: var(--font-heading);
-	font-size: 3.125rem;
-	line-height: 1.2;
-	display: block;
-	color: var(--white);
 	text-align: center;
-	margin: 0.625rem;
-	transition: color 0.3s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+}
+
+.offcanvas__menu .menu-item-has-children > a {
+	margin-bottom: 1.5rem;
+}
+
+.offcanvas__menu a {
+	display: block;
+	font-size: 2rem;
+	color: var(--grey-50);
+	text-align: center;
 	text-decoration: none;
+	transition: color 0.3s;
 }
 
 .offcanvas__menu a:hover {
-	color: var(--orange-300);
+	color: var(--grey-200);
 }
 
 .offcanvas__menu .menu__button a {
@@ -49,11 +67,6 @@
 	color: var(--orange-400);
 }
 
-body.fixed {
-	position: fixed;
-	inset: 0;
-}
-
-body.fixed.logged-in {
-	top: 2rem;
+.offcanvas__menu .sub-menu a {
+	color: var(--grey-300);
 }

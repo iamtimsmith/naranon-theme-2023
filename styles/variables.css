@@ -15,6 +15,12 @@
 	/* Typography */
 	--font-body: Calibri, Arial, Verdana, Helvetica, sans-serif;
 
+	/* Timing */
+	--fast: 0.25s;
+
+	/* Container */
+	--container-width: 58.75rem;
+
 	/* Breakpoints */
 	@custom-media --breakpoint-tablet (min-width: 48rem);
 	@custom-media --breakpoint-desktop (min-width: 64rem);

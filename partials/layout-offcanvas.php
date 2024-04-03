@@ -3,7 +3,7 @@ $primary_menu = get_menu( "primary" );
 ?>
 
 <aside class="offcanvas">
-	<div class="container offcanvas__container">
+	<div class="offcanvas__container">
 		<menu class="offcanvas__menu" aria-label="Main Menu">
 			<?php echo $primary_menu ?>
 		</menu>

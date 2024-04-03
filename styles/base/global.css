@@ -15,7 +15,21 @@ img {
 }
 
 .container {
-	max-width: 58.75rem;
+	max-width: var(--container-width);
 	margin: 0 auto;
 	background: var(--grey-50);
+}
+
+body.fixed {
+	position: fixed;
+	inset: 0;
+}
+
+body.fixed.logged-in {
+	top: 2rem;
+}
+
+.logged-in .site-header,
+.logged-in .offcanvas {
+	top: 2rem;
 }
