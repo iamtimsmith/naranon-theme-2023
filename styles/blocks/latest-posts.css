@@ -1,0 +1,7 @@
+.wp-block-latest-posts__post-title {
+	color: var(--grey-800);
+	font-family: var(--font-heading);
+	font-size: 1.75rem;
+	text-decoration: none;
+	line-height: 1.2;
+}

@@ -1,0 +1,37 @@
+.wp-block-cover .wp-block-cover__inner-container {
+	width: auto;
+	padding: 0 1rem;
+	border: 0.125rem solid var(--border);
+	font-family: var(--font-heading);
+}
+
+.wp-block.wp-block-cover {
+	margin: 0;
+}
+
+.wp-block-cover .wp-block-cover__inner-container > p {
+	margin: 0;
+}
+
+.wp-block-cover.square {
+	min-height: 0;
+}
+
+.wp-block-cover.square:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.wp-block-cover:has(a):after {
+	transition: background 0.3s;
+	content: "";
+	display: block;
+	position: absolute;
+	inset: 0;
+	background: transparent;
+}
+
+.wp-block-cover:has(a):hover:after {
+	background: color-mix(in srgb, var(--dark-background), transparent 25%);
+}

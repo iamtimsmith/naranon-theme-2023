@@ -1,0 +1,16 @@
+.wp-block-details {
+	margin: 0 auto 0.25rem;
+}
+
+.wp-block-details summary {
+	background: var(--background);
+	padding: 0.5rem 1rem;
+	font-family: var(--font-heading);
+	font-size: 1.5rem;
+}
+
+.wp-block-details summary + p {
+	padding: 1rem 2.5rem;
+	background: var(--background);
+	margin: 0;
+}

@@ -1,8 +1,35 @@
 /*
- Theme Name:   Naranon Theme
- Description:  Theme for legacy Naranon FL Website
- Author:       Tim Smith
- Author URI:   https://www.iamtimsmith.com
- Version:      1.0.0
- GitHub Theme URI: understrap/understrap-child
+Theme Name:   Naranon Theme
+Description:  Theme for legacy Naranon FL Website
+Author:       Tim Smith
+Author URI:   https://www.iamtimsmith.com
+Version:      1.0.0
+GitHub Theme URI: understrap/understrap-child
 */
+
+@import "./styles/variables.css";
+
+@import "./styles/base/reset.css";
+@import "./styles/base/global.css";
+
+@import "./styles/components/button.css";
+
+@import "./styles/layout/header.css";
+@import "./styles/layout/footer.css";
+@import "./styles/layout/offcanvas.css";
+@import "./styles/layout/archive-post.css";
+@import "./styles/layout/single-event.css";
+@import "./styles/layout/single-post.css";
+@import "./styles/layout/404.css";
+
+@import "./styles/blocks/background.css";
+@import "./styles/blocks/content.css";
+@import "./styles/blocks/cover.css";
+@import "./styles/blocks/cta.css";
+@import "./styles/blocks/details.css";
+@import "./styles/blocks/events.css";
+@import "./styles/blocks/hero.css";
+@import "./styles/blocks/latest-posts.css";
+@import "./styles/blocks/media-text.css";
+@import "./styles/blocks/staff.css";
+@import "./styles/blocks/three-columns.css";

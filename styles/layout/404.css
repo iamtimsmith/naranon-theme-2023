@@ -1,0 +1,10 @@
+.not-found__grid {
+	gap: 2rem;
+	margin: 0;
+}
+
+.not-found__grid .wp-block-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

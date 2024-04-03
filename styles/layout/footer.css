@@ -1,0 +1,155 @@
+.footer {
+	position: relative;
+	background: var(--dark-background);
+	margin-top: 12.5rem;
+}
+
+.footer__container {
+	position: relative;
+	z-index: 1;
+}
+
+.footer__main {
+	width: 100%;
+}
+
+.footer__menu {
+	width: 100%;
+	margin: 3.125rem 0;
+}
+
+.footer__menu a {
+	display: block;
+	font-family: var(--font-heading);
+	text-decoration: none;
+	font-size: 1.625rem;
+	line-height: 1.2;
+	color: var(--white);
+	margin: 1.25rem 1.875rem;
+	text-align: center;
+	transition: color 0.3s;
+	cursor: pointer;
+}
+
+.footer__menu a:hover {
+	color: var(--orange-300);
+}
+
+.footer__social-listen {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: var(--white);
+}
+
+.footer__social-listen:before {
+	content: "";
+	display: block;
+	position: absolute;
+	inset: -4.688rem 1.563rem 0 -1.563rem;
+	border: 0.125rem solid var(--border);
+	z-index: -1;
+}
+
+.footer__social-listen:after {
+	position: absolute;
+	inset: 0 0 -6.25rem 0;
+	content: "";
+	background: var(--mid-background);
+	display: block;
+	z-index: -1;
+}
+
+.footer__social-listen-title {
+	margin-top: 1.25rem;
+	font-size: 2rem;
+}
+
+.footer__social-listen-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer__social-listen-menu > li {
+	display: inline-block;
+	margin: 1.25rem 0.625rem;
+}
+
+.footer__social-listen-menu a {
+	color: var(--grey-50);
+	text-decoration: none;
+	font-size: 1.75rem;
+	line-height: 1.5;
+	transition: color 0.3s;
+}
+
+.footer__social-listen-menu a:hover {
+	color: var(--orange-200);
+}
+
+.footer__meta {
+	width: 100%;
+	color: color-mix(in srgb, var(--white), transparent 50%);
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 3.125rem 0 0.625rem;
+	font-size: 0.8rem;
+}
+
+.footer__meta p {
+	width: 100%;
+	text-align: center;
+}
+
+.footer__meta a {
+	color: var(--white);
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+@media screen and (--breakpoint-tablet) {
+	.footer__main {
+		width: 60%;
+		display: flex;
+		align-items: center;
+	}
+
+	.footer__menu {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+
+	.footer__menu a {
+		text-align: left;
+	}
+
+	.footer__social-listen {
+		width: 40%;
+	}
+
+	.footer__social-listen:after {
+		inset: -3.125rem 0 -2rem 0;
+	}
+
+	.footer__social-listen-title {
+		margin: 0;
+	}
+
+	.footer__meta p {
+		width: auto;
+	}
+}
+
+@media screen and (--breakpoint-desktop) {
+	.footer__main {
+		width: 75%;
+	}
+
+	.footer__social-listen {
+		width: 25%;
+	}
+}

@@ -1,0 +1,30 @@
+.background__container {
+	position: relative;
+}
+
+.background {
+	background: var(--background);
+	width: 80%;
+	position: absolute;
+	z-index: -1;
+}
+
+.wp-block .background {
+	z-index: 0;
+}
+
+.background--mid {
+	background: var(--mid-background);
+}
+
+.background--dark {
+	background: var(--dark-background);
+}
+
+.background:after {
+	content: "";
+	display: block;
+	border: 0.063rem solid var(--border);
+	position: absolute;
+	inset: -1.25rem 1.25rem 1.25rem -5rem;
+}

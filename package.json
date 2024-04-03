@@ -1,0 +1,23 @@
+{
+	"name": "naranon",
+	"version": "1.0.0",
+	"description": "![Nar-Anon Banner](https://naranonfl.org/images/header-people2.png)",
+	"main": "gulpfile.js",
+	"scripts": {
+		"build": "gulp styles",
+		"dev": "gulp watch:styles"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-cli": "^2.3.0",
+		"gulp-postcss": "^10.0.0",
+		"gulp-rename": "^2.0.0",
+		"postcss-custom-media": "^10.0.2",
+		"postcss-import": "^16.0.1",
+		"postcss-preset-env": "^9.3.0"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
