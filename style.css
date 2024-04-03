@@ -16,6 +16,7 @@ GitHub Theme URI: understrap/understrap-child
 @import "./styles/components/button.css";
 
 @import "./styles/layout/header.css";
+@import "./styles/layout/banner.css";
 @import "./styles/layout/footer.css";
 @import "./styles/layout/offcanvas.css";
 @import "./styles/layout/archive-post.css";

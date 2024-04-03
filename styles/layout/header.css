@@ -3,6 +3,7 @@
 	color: var(--grey-50);
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .site-header__logo {
@@ -155,6 +156,10 @@
 }
 
 @media screen and (--breakpoint-tablet) {
+	.site-header {
+		justify-content: flex-start;
+	}
+
 	.site-header__menu {
 		display: flex;
 	}

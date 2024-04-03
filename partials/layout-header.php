@@ -33,6 +33,6 @@ $pageTitle = get_the_title( $post->ID );
 			</menu>
 			<button class="site-header__toggle"><span></span></button>
 		</header>
-		<figure>
-			<img src="https://naranonfl.org/images/header-people2.png" alt="Florida Region Nar-Anon banner">
+		<figure class="site-banner">
+			<img src=" https://naranonfl.org/images/header-people2.png" alt="Florida Region Nar-Anon banner">
 		</figure>

@@ -19,6 +19,7 @@ main {
 h1 {
 	color: var(--grey-900);
 	font-size: 2rem;
+	line-height: 1.2;
 	border-bottom: 0.063rem solid var(--grey-500);
 	padding: 0.25rem 0;
 	margin: 0.25rem 0 0.625rem;
@@ -27,23 +28,26 @@ h1 {
 h2 {
 	color: var(--grey-900);
 	font-size: 1.625rem;
+	line-height: 1.2;
 	border-bottom: 0.063rem solid var(--grey-500);
 	padding: 0.25rem 0;
-	margin: 0.25rem 0 0.625rem;
+	margin: 1rem 0 0.625rem;
 }
 
 h3 {
 	color: var(--grey-600);
 	font-size: 1.25rem;
+	line-height: 1.2;
 	padding: 0.25rem 0;
-	margin: 0.25rem 0 0.625rem;
+	margin: 1rem 0 0.625rem;
 }
 
 h4 {
 	color: var(--grey-600);
 	font-size: 1rem;
+	line-height: 1.2;
 	padding: 0.25rem 0;
-	margin: 0.25rem 0 0.625rem;
+	margin: 0.5rem 0 0.625rem;
 }
 
 p {
@@ -62,6 +66,24 @@ a:hover {
 
 em {
 	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+ul {
+	padding-left: 1.5rem;
+	list-style: circle;
+}
+
+ol {
+	padding-left: 1.5rem;
+	list-style: number;
+}
+
+iframe {
+	margin: 1rem 0;
 }
 
 img {
