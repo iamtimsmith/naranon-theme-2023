@@ -1,0 +1,8 @@
+:root {
+	/* Palette */
+	--grey-100: #ffffff;
+	--grey-300: #cccccc;
+	--grey-900: #000000;
+	/* Typography */
+	--sans-serif: sans-serif;
+}
